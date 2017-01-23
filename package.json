@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "benchmark": "babel-node benchmark",
+    "benchmark:test": "cross-env NODE_ENV=test mocha -R spec 'tests/**/*.benchmark.js' --compilers js:babel-register --check-leaks",
     "benchmark:watch": "nodemon src/index.js --exec babel-node benchmark",
     "prebuild": "npm run clean:dist",
     "build": "cross-env NODE_ENV=production babel -s true src -d dist",
