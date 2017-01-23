@@ -1,4 +1,4 @@
-## es2017-babel-starter
+## es2017-babel-boilerplate
 [![test][test]][test-url] [![coverage][cover]][cover-url] [![quality][quality]][quality-url] [![issues][issues]][issues-url]
 
 
