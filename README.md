@@ -1,15 +1,16 @@
-## es2017-babel-boilerplate
+## ES7+ Babel driven library boilerplate
 [![test][test]][test-url] [![coverage][cover]][cover-url] [![quality][quality]][quality-url] [![issues][issues]][issues-url]
 
 
-### Contents
+#### Contents
 - [Features](#Features)
 - [Usage](#usage)
 - [Testing](#testing)
 - [Performance Benchmarks](#benchmarking-suite)
+- [Security](#security)
 
 
-### Features
+#### Features
 - ES6 / ES7 transpilation with [Babel][babel-url]
 - ES6+ minification with Babili [babili][babili-url]
 - ES6+ Testing via [babel-register][babel-register-url] with [Mocha][mocha-url] & [Chai][chai-url]
@@ -20,7 +21,7 @@
 - Security vulnerability scan with [nsp][nsp-url]
 - Docker build for non-lib projects.
 
-### Usage
+#### Usage
 
 - `npm start` - execute code in `src` directory with live reload via `nodemon` transpiled with `babel-node`
 - `npm run serve:dev <target>` - execute target code with live reload via `nodemon` transpiled with `babel-node`
@@ -35,7 +36,7 @@
 - `npm run serve:dist` - serve production files from the `./dist` folder via `node`
 - `npm run scan:security` - run vulnerability tests via the node security platform `nsp`
 
-### Testing
+#### Testing
 
 _Testing with [Mocha][mocha-url] and [Chai][chai-url], HTML Reports via [mochawesome][mochawesome-url]_
 
@@ -44,7 +45,7 @@ npm test
 
 ```
 
-### Benchmarking Suite
+#### Benchmarking Suite
 
 _Benchmark Testing with [Benchmark.js][benchmark-url]_
 
@@ -53,11 +54,10 @@ npm run benchmark
 
 ```
 
-### Security & Updates
+#### Security
 
 _Run vulnerability tests via `Node Security Project`_
 
-_Check for dependency updates via `NPM Check Updates`_
 
 [test]: https://circleci.com/gh/DeviantJS/es7-babel-starter.svg?style=svg
 [test-url]: https://circleci.com/gh/DeviantJS/es7-babel-starter
