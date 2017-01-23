@@ -22,8 +22,9 @@ before_install:
   - nvm --version
   - node --version
   - npm install -g bithound
+before_script:
+  - 'if [ "$BITHOUND_CHECK" ]; then npm install -g bithound; bithound check git@github.com:$TRAVIS_REPO_SLUG.git fi'
 script:
   - npm run travis:$JOB_PART
-  - bithound check git@github.com:$TRAVIS_REPO_SLUG.git
 after_success:
   - bash <(curl -s https://codecov.io/bash)
