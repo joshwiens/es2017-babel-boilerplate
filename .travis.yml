@@ -8,7 +8,7 @@ matrix:
   include:
     - os: linux
       node_js: "7"
-      env: JOB_PART=lint
+      env: BITHOUND_CHECK=true JOB_PART=lint
     - os: linux
       node_js: "7"
       env: JOB_PART=benchmark
