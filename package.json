@@ -106,6 +106,9 @@
     "extends": "standard",
     "installedESLint": true
   },
+  "engines": {
+    "node": ">= 6"
+  },
   "keywords": [
     "babel",
     "starter",
