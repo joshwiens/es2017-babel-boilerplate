@@ -1,21 +1,15 @@
 ## es2017-babel-starter
-> &nbsp;&nbsp;**Build Status (#master):** &nbsp;&nbsp;[![test][test]][test-url]
-
-> &nbsp;&nbsp;**Coverage (#master):** &nbsp;&nbsp;[![coverage][cover]][cover-url]
-
-> &nbsp;&nbsp;**Code Quality Score:** &nbsp;&nbsp;[![quality][quality]][quality-url]
-
-> &nbsp;&nbsp;**Code Issues:** &nbsp;&nbsp;[![issues][issues]][issues-url]
+[![test][test]][test-url] [![coverage][cover]][cover-url] [![quality][quality]][quality-url] [![issues][issues]][issues-url]
 
 
 ### Contents
-- [Development Experience](#development-experience)
+- [Features](#Features)
 - [Usage](#usage)
 - [Testing](#testing)
 - [Performance Benchmarks](#benchmarking-suite)
 
 
-### Development Experience
+### Features
 - ES6 / ES7 transpilation with [Babel][babel-url]
 - ES6+ minification with Babili [babili][babili-url]
 - ES6+ Testing via [babel-register][babel-register-url] with [Mocha][mocha-url] & [Chai][chai-url]
@@ -65,6 +59,9 @@ _Run vulnerability tests via `Node Security Project`_
 
 _Check for dependency updates via `NPM Check Updates`_
 
+
+<!--[npm]: https://img.shields.io/npm/v/es2017-babel-starter.svg
+[npm-url]: https://npmjs.com/package/es2017-babel-starter-->
 [test]: https://circleci.com/gh/DeviantJS/es7-babel-starter.svg?style=svg
 [test-url]: https://circleci.com/gh/DeviantJS/es7-babel-starter
 [cover]: https://codecov.io/gh/DeviantJS/es7-babel-starter/branch/master/graph/badge.svg
@@ -83,3 +80,5 @@ _Check for dependency updates via `NPM Check Updates`_
 [benchmark-url]: https://github.com/bestiejs/benchmark.js
 [nodemon-url]: https://github.com/remy/nodemon
 [nsp-url]: https://github.com/nodesecurity/nsp
+<!--[chat]: https://img.shields.io/badge/gitter-webpack%2Fwebpack-brightgreen.svg
+[chat-url]: https://gitter.im/webpack/webpack-->
