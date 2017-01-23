@@ -44,7 +44,10 @@
     "postrelease": "git push --follow-tags origin master && npm run setenv:dev",
     "prepublish": "npm run setenv:prod && npm run clean && npm run build && npm run lint && npm run test && npm run coverage",
     "publish": "npm publish --access public",
-    "postpublish": "greenkeeper-postpublish && npm run setenv:dev"
+    "postpublish": "greenkeeper-postpublish && npm run setenv:dev",
+    "travis:lint": "yarn run lint",
+    "travis:benchmark": "yarn run benchmark",
+    "travis:test": "yarn run coverage"
   },
   "dependencies": {},
   "devDependencies": {
