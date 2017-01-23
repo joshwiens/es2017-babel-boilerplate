@@ -59,9 +59,6 @@ _Run vulnerability tests via `Node Security Project`_
 
 _Check for dependency updates via `NPM Check Updates`_
 
-
-<!--[npm]: https://img.shields.io/npm/v/es2017-babel-starter.svg
-[npm-url]: https://npmjs.com/package/es2017-babel-starter-->
 [test]: https://circleci.com/gh/DeviantJS/es7-babel-starter.svg?style=svg
 [test-url]: https://circleci.com/gh/DeviantJS/es7-babel-starter
 [cover]: https://codecov.io/gh/DeviantJS/es7-babel-starter/branch/master/graph/badge.svg
@@ -80,5 +77,3 @@ _Check for dependency updates via `NPM Check Updates`_
 [benchmark-url]: https://github.com/bestiejs/benchmark.js
 [nodemon-url]: https://github.com/remy/nodemon
 [nsp-url]: https://github.com/nodesecurity/nsp
-<!--[chat]: https://img.shields.io/badge/gitter-webpack%2Fwebpack-brightgreen.svg
-[chat-url]: https://gitter.im/webpack/webpack-->
