@@ -1,6 +1,6 @@
 {
   "name": "es2017-babel-starter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Author libraries in ES2016 / ES7 for Node.",
   "author": "Joshua Wiens <d3viant0ne> (https://github.com/d3viant0ne)",
   "license": "MIT",
