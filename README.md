@@ -59,14 +59,14 @@ npm run benchmark
 _Run vulnerability tests via `Node Security Project`_
 
 
-[test]: https://circleci.com/gh/DeviantJS/es7-babel-starter.svg?style=svg
-[test-url]: https://circleci.com/gh/DeviantJS/es7-babel-starter
-[cover]: https://codecov.io/gh/DeviantJS/es7-babel-starter/branch/master/graph/badge.svg
-[cover-url]: https://codecov.io/gh/DeviantJS/es7-babel-starter
-[quality]: https://codeclimate.com/github/DeviantJS/es7-babel-starter/badges/gpa.svg
-[quality-url]: https://codeclimate.com/github/DeviantJS/es7-babel-starter
-[issues]: https://codeclimate.com/github/DeviantJS/es7-babel-starter/badges/issue_count.svg
-[issues-url]: https://codeclimate.com/github/DeviantJS/es7-babel-starter
+[test]: https://travis-ci.org/d3viant0ne/es2017-babel-boilerplate.svg?branch=master
+[test-url]: https://travis-ci.org/d3viant0ne/es2017-babel-boilerplate
+[cover]: https://codecov.io/gh/d3viant0ne/es2017-babel-boilerplate/branch/master/graph/badge.svg
+[cover-url]: https://codecov.io/gh/d3viant0ne/es2017-babel-boilerplate
+[quality]: https://www.bithound.io/github/d3viant0ne/es2017-babel-boilerplate/badges/score.svg
+[quality-url]: https://www.bithound.io/github/d3viant0ne/es2017-babel-boilerplate
+[issues]: https://www.bithound.io/github/d3viant0ne/es2017-babel-boilerplate/badges/devDependencies.svg
+[issues-url]: https://www.bithound.io/github/d3viant0ne/es2017-babel-boilerplate/master/dependencies/npm
 [babel-url]: https://github.com/babel/babel
 [babili-url]: https://github.com/babel/babili
 [babel-register-url]: https://github.com/babel/babel/tree/master/packages/babel-register
