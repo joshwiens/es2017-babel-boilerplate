@@ -35,7 +35,7 @@
     "setenv:prod": "npm config set production true",
     "tasks": "ntl",
     "pretest": "npm run clean:coverage && npm run clean:reports",
-    "test": "cross-env NODE_ENV=test mocha -c -S -R spec --compilers js:babel-register --check-leaks",
+    "test": "cross-env NODE_ENV=test mocha -c -S -R spec 'tests/**/*.spec.js' --compilers js:babel-register --check-leaks",
     "posttest": "cross-env NODE_ENV=test mocha -S -R mochawesome --compilers js:babel-register --reporter-options reportDir=reports --check-leaks",
     "test:watch": "cross-env NODE_ENV=test npm test -- -w",
     "prerelease": "npm run setenv:prod && npm run clean && npm run build && npm run lint && npm run test && npm run coverage",
@@ -63,8 +63,6 @@
     "cross-env": "3.1.4",
     "eslint": "3.14.0",
     "eslint-config-standard": "6.2.1",
-    "eslint-plugin-promise": "3.4.0",
-    "eslint-plugin-standard": "2.0.1",
     "greenkeeper-postpublish": "1.0.1",
     "mocha": "3.2.0",
     "mocha-junit-reporter": "1.13.0",
@@ -105,11 +103,7 @@
   },
   "eslintConfig": {
     "extends": "standard",
-    "installedESLint": true,
-    "plugins": [
-      "standard",
-      "promise"
-    ]
+    "installedESLint": true
   },
   "keywords": [
     "babel",
