@@ -17,9 +17,9 @@ suite
     result = a + b;
   })
   .on('cycle', function(event) {
-    console.log(String(event.target));
+    console.log(String(event.target)); // eslint-disable-line no-console
   })
   .on('complete', function() {
-    console.log('Fastest is ' + this.filter('fastest').map('name'));
+    console.log('Fastest is ' + this.filter('fastest').map('name')); // eslint-disable-line no-console
   })
   .run({ 'async': true });
