@@ -1,6 +1,6 @@
 import sum from './sum';
 
-const log = console.log;
+const log = console.log; // eslint-disable-line no-console
 
 const dbConfig = {
   server: 'localhost',
